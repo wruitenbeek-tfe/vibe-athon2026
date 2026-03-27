@@ -7,6 +7,8 @@ class Settings(BaseSettings):
     app_name: str = "Hackathon Chatbot API"
     debug: bool = False
     bot_name: str = "VibeBot"
+    vacancies_path: str = "app/vacancies.json"
+    max_matches: int = 3
     default_system_prompt: str = (
         "You are a helpful hackathon chatbot. Give concise, practical answers."
     )

@@ -21,12 +21,18 @@ async def test_root_serves_chat_ui() -> None:
     assert response.status_code == 200
     assert "Build your chatbot here." in response.text
     assert "VibeBot" in response.text
+    assert "Recommended Vacancies" in response.text
 
 
 @pytest.mark.anyio
 async def test_chat_endpoint() -> None:
     async with AsyncClient(transport=ASGITransport(app=app), base_url="http://test") as client:
-        response = await client.post("/api/chat", json={"message": "Hello"})
+        response = await client.post(
+            "/api/chat",
+            json={"message": "I know Python, want a senior role in Amsterdam, and prefer English."},
+        )
 
     assert response.status_code == 200
-    assert "Hello" in response.json()["reply"]
+    data = response.json()
+    assert "Vacancy matching is intentionally not implemented here." in data["reply"]
+    assert data["matches"] == []

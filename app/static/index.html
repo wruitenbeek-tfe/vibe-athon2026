@@ -12,8 +12,9 @@
         <p class="eyebrow">Hackathon Starter</p>
         <h1>Build your chatbot here.</h1>
         <p class="intro">
-          This UI talks to the FastAPI backend at <code>/api/chat</code>. Replace the
-          placeholder service with your model integration and keep shipping.
+          This UI talks to the FastAPI backend at <code>/api/chat</code> and shows
+          recommended vacancies. Teams can improve the ranking logic or replace it with an
+          LLM-based retrieval flow.
         </p>
       </section>
 
@@ -30,10 +31,18 @@
           <article class="message bot">
             <p>
               {bot_name}: The chat UI is running. Send a message to test the backend,
-              then swap in your actual chatbot logic.
+              and I will suggest vacancies that match your profile.
             </p>
           </article>
         </div>
+
+        <section class="results-panel" aria-label="Vacancy matches">
+          <div class="results-header">
+            <h3>Recommended Vacancies</h3>
+            <p id="results-summary">Ask about skills, location, experience, or language.</p>
+          </div>
+          <div id="matches" class="matches"></div>
+        </section>
 
         <form id="chat-form" class="composer">
           <label class="sr-only" for="message">Message</label>
@@ -41,7 +50,7 @@
             id="message"
             name="message"
             rows="3"
-            placeholder="Ask something practical..."
+            placeholder="Example: I know Python, want a senior role in Amsterdam, and prefer English."
             required
           ></textarea>
           <div class="composer-actions">
