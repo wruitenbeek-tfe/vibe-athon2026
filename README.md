@@ -47,7 +47,8 @@ Verify installation:
 
 Add Poetry to PATH:
 ```bash
- echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.zshrc source ~/.zshrc
+ echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.zshrc 
+ source ~/.zshrc
  ``` 
 
 Verify:
@@ -92,7 +93,8 @@ Verify:
 
 Add Poetry to PATH: 
 ```bash
- echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.bashrc source ~/.bashrc
+ echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.bashrc 
+ source ~/.bashrc
  ```
 
 Verify: 
@@ -102,7 +104,8 @@ Verify:
 
  ### 4. Install dependencies 
 ```bash
- cd your-project poetry install
+ cd your-project 
+ poetry install
  ``` 
 
  ### 5. Start development server 
