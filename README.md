@@ -1,6 +1,6 @@
 # vibe-athon2026
 
-Hackathon starter project for building a chatbot API with FastAPI and Poetry.
+Hackathon starter project for building a chatbot with a FastAPI backend and a simple browser UI.
 
 ## Stack
 
@@ -45,6 +45,7 @@ tests/             Starter test suite
 ## Available Endpoints
 
 - `GET /` basic service info
+- `GET /` chat web interface
 - `GET /health` healthcheck
 - `POST /api/chat` chatbot endpoint
 
