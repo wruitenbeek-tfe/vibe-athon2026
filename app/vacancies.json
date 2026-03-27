@@ -1,0 +1,373 @@
+[
+  {
+    "jobTitle": "Software Engineer",
+    "jobDescription": "Bouw en onderhoud backend systemen.",
+    "location": "Amsterdam",
+    "employmentType": "Fulltime",
+    "experienceLevel": "Medior",
+    "requiredSkills": ["Java", "Spring"],
+    "educationLevel": "HBO Informatica",
+    "languagesRequired": ["Nederlands"]
+  },
+  {
+    "jobTitle": "Frontend Developer",
+    "jobDescription": "Ontwikkel moderne webinterfaces.",
+    "location": "Utrecht",
+    "employmentType": "Fulltime",
+    "experienceLevel": "Junior",
+    "requiredSkills": ["JavaScript", "React"],
+    "educationLevel": "HBO Informatica",
+    "languagesRequired": ["Nederlands"]
+  },
+  {
+    "jobTitle": "Data Analyst",
+    "jobDescription": "Analyseer data en maak rapportages.",
+    "location": "Rotterdam",
+    "employmentType": "Fulltime",
+    "experienceLevel": "Medior",
+    "requiredSkills": ["SQL", "Python"],
+    "educationLevel": "WO Data Science",
+    "languagesRequired": ["Nederlands"]
+  },
+  {
+    "jobTitle": "DevOps Engineer",
+    "jobDescription": "Beheer CI/CD pipelines en infrastructuur.",
+    "location": "Den Haag",
+    "employmentType": "Fulltime",
+    "experienceLevel": "Senior",
+    "requiredSkills": ["Docker", "Kubernetes"],
+    "educationLevel": "HBO Informatica",
+    "languagesRequired": ["Engels"]
+  },
+  {
+    "jobTitle": "QA Tester",
+    "jobDescription": "Test software op kwaliteit en bugs.",
+    "location": "Eindhoven",
+    "employmentType": "Fulltime",
+    "experienceLevel": "Junior",
+    "requiredSkills": ["Testen", "Selenium"],
+    "educationLevel": "MBO ICT",
+    "languagesRequired": ["Nederlands"]
+  },
+  {
+    "jobTitle": "Product Owner",
+    "jobDescription": "Beheer product backlog en prioriteiten.",
+    "location": "Amsterdam",
+    "employmentType": "Fulltime",
+    "experienceLevel": "Senior",
+    "requiredSkills": ["Scrum", "Stakeholder management"],
+    "educationLevel": "HBO",
+    "languagesRequired": ["Nederlands"]
+  },
+  {
+    "jobTitle": "UX Designer",
+    "jobDescription": "Ontwerp gebruiksvriendelijke interfaces.",
+    "location": "Utrecht",
+    "employmentType": "Parttime",
+    "experienceLevel": "Medior",
+    "requiredSkills": ["Figma", "User research"],
+    "educationLevel": "HBO Design",
+    "languagesRequired": ["Nederlands"]
+  },
+  {
+    "jobTitle": "Backend Developer",
+    "jobDescription": "Ontwikkel API’s en databasestructuren.",
+    "location": "Rotterdam",
+    "employmentType": "Fulltime",
+    "experienceLevel": "Medior",
+    "requiredSkills": ["Node.js", "MongoDB"],
+    "educationLevel": "HBO Informatica",
+    "languagesRequired": ["Engels"]
+  },
+  {
+    "jobTitle": "Cloud Engineer",
+    "jobDescription": "Beheer cloud infrastructuur en services.",
+    "location": "Den Haag",
+    "employmentType": "Fulltime",
+    "experienceLevel": "Senior",
+    "requiredSkills": ["AWS", "Terraform"],
+    "educationLevel": "HBO Informatica",
+    "languagesRequired": ["Engels"]
+  },
+  {
+    "jobTitle": "IT Support Specialist",
+    "jobDescription": "Ondersteun gebruikers bij IT-problemen.",
+    "location": "Eindhoven",
+    "employmentType": "Fulltime",
+    "experienceLevel": "Junior",
+    "requiredSkills": ["Windows", "Netwerken"],
+    "educationLevel": "MBO ICT",
+    "languagesRequired": ["Nederlands"]
+  },
+  {
+    "jobTitle": "Machine Learning Engineer",
+    "jobDescription": "Ontwikkel en train ML-modellen.",
+    "location": "Amsterdam",
+    "employmentType": "Fulltime",
+    "experienceLevel": "Senior",
+    "requiredSkills": ["Python", "TensorFlow"],
+    "educationLevel": "WO AI",
+    "languagesRequired": ["Engels"]
+  },
+  {
+    "jobTitle": "Security Specialist",
+    "jobDescription": "Beveilig systemen en data.",
+    "location": "Utrecht",
+    "employmentType": "Fulltime",
+    "experienceLevel": "Senior",
+    "requiredSkills": ["Cybersecurity", "Penetration testing"],
+    "educationLevel": "HBO Informatica",
+    "languagesRequired": ["Engels"]
+  },
+  {
+    "jobTitle": "Mobile Developer",
+    "jobDescription": "Bouw mobiele applicaties.",
+    "location": "Rotterdam",
+    "employmentType": "Fulltime",
+    "experienceLevel": "Medior",
+    "requiredSkills": ["Flutter", "Kotlin"],
+    "educationLevel": "HBO Informatica",
+    "languagesRequired": ["Nederlands"]
+  },
+  {
+    "jobTitle": "Business Analyst",
+    "jobDescription": "Analyseer bedrijfsprocessen en eisen.",
+    "location": "Den Haag",
+    "employmentType": "Fulltime",
+    "experienceLevel": "Medior",
+    "requiredSkills": ["Analyse", "Stakeholder management"],
+    "educationLevel": "HBO Bedrijfskunde",
+    "languagesRequired": ["Nederlands"]
+  },
+  {
+    "jobTitle": "System Administrator",
+    "jobDescription": "Beheer IT-systemen en servers.",
+    "location": "Eindhoven",
+    "employmentType": "Fulltime",
+    "experienceLevel": "Medior",
+    "requiredSkills": ["Linux", "Netwerken"],
+    "educationLevel": "MBO ICT",
+    "languagesRequired": ["Nederlands"]
+  },
+  {
+    "jobTitle": "Full Stack Developer",
+    "jobDescription": "Werk aan zowel frontend als backend.",
+    "location": "Amsterdam",
+    "employmentType": "Fulltime",
+    "experienceLevel": "Medior",
+    "requiredSkills": ["JavaScript", "Node.js"],
+    "educationLevel": "HBO Informatica",
+    "languagesRequired": ["Engels"]
+  },
+  {
+    "jobTitle": "AI Researcher",
+    "jobDescription": "Onderzoek nieuwe AI-methodes.",
+    "location": "Utrecht",
+    "employmentType": "Fulltime",
+    "experienceLevel": "Senior",
+    "requiredSkills": ["Python", "Deep Learning"],
+    "educationLevel": "WO AI",
+    "languagesRequired": ["Engels"]
+  },
+  {
+    "jobTitle": "Scrum Master",
+    "jobDescription": "Begeleid agile teams.",
+    "location": "Rotterdam",
+    "employmentType": "Fulltime",
+    "experienceLevel": "Medior",
+    "requiredSkills": ["Scrum", "Coaching"],
+    "educationLevel": "HBO",
+    "languagesRequired": ["Nederlands"]
+  },
+  {
+    "jobTitle": "Data Engineer",
+    "jobDescription": "Bouw data pipelines.",
+    "location": "Den Haag",
+    "employmentType": "Fulltime",
+    "experienceLevel": "Senior",
+    "requiredSkills": ["Python", "ETL"],
+    "educationLevel": "HBO Informatica",
+    "languagesRequired": ["Engels"]
+  },
+  {
+    "jobTitle": "Network Engineer",
+    "jobDescription": "Ontwerp en beheer netwerken.",
+    "location": "Eindhoven",
+    "employmentType": "Fulltime",
+    "experienceLevel": "Medior",
+    "requiredSkills": ["Cisco", "Routing"],
+    "educationLevel": "MBO ICT",
+    "languagesRequired": ["Nederlands"]
+  },
+
+  {
+    "jobTitle": "Game Developer",
+    "jobDescription": "Ontwikkel interactieve games.",
+    "location": "Amsterdam",
+    "employmentType": "Fulltime",
+    "experienceLevel": "Junior",
+    "requiredSkills": ["Unity", "C#"],
+    "educationLevel": "HBO ICT",
+    "languagesRequired": ["Engels"]
+  },
+  {
+    "jobTitle": "Embedded Engineer",
+    "jobDescription": "Werk aan embedded systemen.",
+    "location": "Utrecht",
+    "employmentType": "Fulltime",
+    "experienceLevel": "Senior",
+    "requiredSkills": ["C", "Microcontrollers"],
+    "educationLevel": "HBO Elektrotechniek",
+    "languagesRequired": ["Nederlands"]
+  },
+  {
+    "jobTitle": "Technical Writer",
+    "jobDescription": "Schrijf technische documentatie.",
+    "location": "Rotterdam",
+    "employmentType": "Parttime",
+    "experienceLevel": "Medior",
+    "requiredSkills": ["Schrijven", "IT kennis"],
+    "educationLevel": "HBO",
+    "languagesRequired": ["Nederlands"]
+  },
+  {
+    "jobTitle": "Site Reliability Engineer",
+    "jobDescription": "Zorg voor stabiele systemen.",
+    "location": "Den Haag",
+    "employmentType": "Fulltime",
+    "experienceLevel": "Senior",
+    "requiredSkills": ["Monitoring", "Kubernetes"],
+    "educationLevel": "HBO Informatica",
+    "languagesRequired": ["Engels"]
+  },
+  {
+    "jobTitle": "ERP Consultant",
+    "jobDescription": "Implementeer ERP systemen.",
+    "location": "Eindhoven",
+    "employmentType": "Fulltime",
+    "experienceLevel": "Medior",
+    "requiredSkills": ["SAP", "Consultancy"],
+    "educationLevel": "HBO Bedrijfskunde",
+    "languagesRequired": ["Nederlands"]
+  },
+  {
+    "jobTitle": "Blockchain Developer",
+    "jobDescription": "Ontwikkel blockchain applicaties.",
+    "location": "Amsterdam",
+    "employmentType": "Fulltime",
+    "experienceLevel": "Senior",
+    "requiredSkills": ["Solidity", "Web3"],
+    "educationLevel": "HBO Informatica",
+    "languagesRequired": ["Engels"]
+  },
+  {
+    "jobTitle": "IT Project Manager",
+    "jobDescription": "Leid IT-projecten.",
+    "location": "Utrecht",
+    "employmentType": "Fulltime",
+    "experienceLevel": "Senior",
+    "requiredSkills": ["Projectmanagement", "Agile"],
+    "educationLevel": "HBO",
+    "languagesRequired": ["Nederlands"]
+  },
+  {
+    "jobTitle": "Database Administrator",
+    "jobDescription": "Beheer databasesystemen.",
+    "location": "Rotterdam",
+    "employmentType": "Fulltime",
+    "experienceLevel": "Medior",
+    "requiredSkills": ["SQL", "Oracle"],
+    "educationLevel": "HBO Informatica",
+    "languagesRequired": ["Engels"]
+  },
+  {
+    "jobTitle": "Automation Engineer",
+    "jobDescription": "Automatiseer processen en tests.",
+    "location": "Den Haag",
+    "employmentType": "Fulltime",
+    "experienceLevel": "Medior",
+    "requiredSkills": ["Python", "Scripting"],
+    "educationLevel": "HBO Informatica",
+    "languagesRequired": ["Engels"]
+  },
+  {
+    "jobTitle": "Helpdesk Medewerker",
+    "jobDescription": "Ondersteun eindgebruikers.",
+    "location": "Eindhoven",
+    "employmentType": "Fulltime",
+    "experienceLevel": "Junior",
+    "requiredSkills": ["Support", "Windows"],
+    "educationLevel": "MBO ICT",
+    "languagesRequired": ["Nederlands"]
+  },
+  {
+    "jobTitle": "AR/VR Developer",
+    "jobDescription": "Ontwikkel AR en VR toepassingen.",
+    "location": "Amsterdam",
+    "employmentType": "Fulltime",
+    "experienceLevel": "Medior",
+    "requiredSkills": ["Unity", "3D"],
+    "educationLevel": "HBO ICT",
+    "languagesRequired": ["Engels"]
+  },
+  {
+    "jobTitle": "IT Auditor",
+    "jobDescription": "Controleer IT-processen.",
+    "location": "Utrecht",
+    "employmentType": "Fulltime",
+    "experienceLevel": "Senior",
+    "requiredSkills": ["Audit", "Compliance"],
+    "educationLevel": "WO",
+    "languagesRequired": ["Nederlands"]
+  },
+  {
+    "jobTitle": "BI Developer",
+    "jobDescription": "Ontwikkel dashboards en rapportages.",
+    "location": "Rotterdam",
+    "employmentType": "Fulltime",
+    "experienceLevel": "Medior",
+    "requiredSkills": ["Power BI", "SQL"],
+    "educationLevel": "HBO Informatica",
+    "languagesRequired": ["Nederlands"]
+  },
+  {
+    "jobTitle": "Digital Marketeer",
+    "jobDescription": "Beheer online campagnes.",
+    "location": "Den Haag",
+    "employmentType": "Fulltime",
+    "experienceLevel": "Junior",
+    "requiredSkills": ["SEO", "SEA"],
+    "educationLevel": "HBO Marketing",
+    "languagesRequired": ["Nederlands"]
+  },
+  {
+    "jobTitle": "IT Trainer",
+    "jobDescription": "Geef trainingen in IT-tools.",
+    "location": "Eindhoven",
+    "employmentType": "Parttime",
+    "experienceLevel": "Medior",
+    "requiredSkills": ["Training", "Communicatie"],
+    "educationLevel": "HBO",
+    "languagesRequired": ["Nederlands"]
+  },
+  {
+    "jobTitle": "Robotics Engineer",
+    "jobDescription": "Ontwikkel robotsystemen.",
+    "location": "Amsterdam",
+    "employmentType": "Fulltime",
+    "experienceLevel": "Senior",
+    "requiredSkills": ["ROS", "C++"],
+    "educationLevel": "WO Techniek",
+    "languagesRequired": ["Engels"]
+  },
+  {
+    "jobTitle": "IT Consultant",
+    "jobDescription": "Adviseer bedrijven over IT-oplossingen.",
+    "location": "Utrecht",
+    "employmentType": "Fulltime",
+    "experienceLevel": "Medior",
+    "requiredSkills": ["Consultancy", "IT kennis"],
+    "educationLevel": "HBO",
+    "languagesRequired": ["Nederlands"]
+  }
+]
