@@ -22,7 +22,8 @@ async def healthcheck() -> dict[str, str]:
 
 @app.get("/", tags=["system"])
 async def root() -> HTMLResponse:
-    return HTMLResponse(index_html)
-
+    html = (static_dir / "index.html").read_text(encoding="utf-8")
+    rendered_html = html.format(bot_name=settings.bot_name)
+    return HTMLResponse(rendered_html)
 
 app.include_router(chat_router, prefix="/api")

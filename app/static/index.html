@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>VibeBot Chat</title>
+    <title>{bot_name} Chat</title>
     <link rel="stylesheet" href="/static/styles.css" />
   </head>
   <body>
@@ -20,7 +20,7 @@
       <section class="chat-panel" aria-label="Chatbot interface">
         <div class="chat-header">
           <div>
-            <h2>VibeBot</h2>
+            <h2>{bot_name}</h2>
             <p>FastAPI + Poetry starter</p>
           </div>
           <a href="/docs" target="_blank" rel="noreferrer">API Docs</a>
@@ -29,8 +29,8 @@
         <div id="messages" class="messages" aria-live="polite">
           <article class="message bot">
             <p>
-              VibeBot: The chat UI is running. Send a message to test the backend, then
-              swap in your actual chatbot logic.
+              {bot_name}: The chat UI is running. Send a message to test the backend,
+              then swap in your actual chatbot logic.
             </p>
           </article>
         </div>

@@ -20,6 +20,7 @@ async def test_root_serves_chat_ui() -> None:
 
     assert response.status_code == 200
     assert "Build your chatbot here." in response.text
+    assert "VibeBot" in response.text
 
 
 @pytest.mark.anyio
