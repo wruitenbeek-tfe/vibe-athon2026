@@ -12,7 +12,10 @@ Hackathon starter project for building a chatbot with a FastAPI backend and a si
 
 ## Quick Start
 
-1. Install Poetry if it is not already available.
+1. Install Poetry if it is not already available:
+```bash
+curl -sSL https://install.python-poetry.org | python3 -
+```
 2. Install dependencies:
 
 ```bash
