@@ -1,1 +1,1 @@
-# vib-athon2026
+# vibe-athon2026
