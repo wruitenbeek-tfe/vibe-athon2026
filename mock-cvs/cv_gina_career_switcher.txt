@@ -1,0 +1,32 @@
+Name: Gina van Leeuwen
+Location: Rotterdam
+Target role: Junior Data Analyst / Data Engineer
+
+Profile
+Career switcher. 11 years in logistics planning, moved into data work in 2024.
+Built internal reporting scripts to automate weekly planning updates.
+No formal CS degree; completed bootcamp + self-study in evenings.
+
+Core skills
+- SQL
+- Python
+- Excel
+- Tableau
+- ETL basics
+
+Experience
+Logistics Planner -> Data-focused Planner, SupplyChain NL (2015-2026)
+- Created SQL extracts for shipment bottleneck analysis.
+- Wrote Python scripts for cleaning inbound data from CSV exports.
+- Reduced manual reporting effort by 8 hours per week.
+
+Education
+- HBO Logistics Management
+- Data Analytics Bootcamp (2024)
+
+Languages
+- Nederlands
+- Engels
+
+Notes
+Open to medior mentorship track.

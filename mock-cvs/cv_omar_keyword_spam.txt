@@ -1,0 +1,22 @@
+Name: Omar El Haddad
+Location: Den Haag
+Target role: Data Engineer
+
+Profile
+Python Python Python SQL ETL AWS Terraform Data Engineer Data Engineer Data Engineer.
+Senior Medior Junior all levels possible. Fulltime Parttime both.
+Amsterdam Rotterdam Den Haag Utrecht Eindhoven.
+
+Skills
+Python, SQL, ETL, AWS, Terraform, Docker, Kubernetes, Java, Spring, React, Node.js,
+MongoDB, TensorFlow, Deep Learning, Scrum, Stakeholder management, Cybersecurity.
+
+Experience
+Did many projects with many stacks.
+Built pipelines, APIs, dashboards, cloud migration, testing, mobile app, game prototype.
+
+Education
+HBO Informatica
+
+Languages
+Nederlands Engels Duits Frans Spaans

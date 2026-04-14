@@ -1,0 +1,30 @@
+Name: Priya Nair
+Location: Eindhoven
+Target role: QA Tester (Junior)
+
+Profile
+10 years as a high-school chemistry teacher transitioning to tech.
+Built small Selenium test suites during retraining.
+Strong communication and documentation skills.
+
+Relevant projects
+- Automated regression checks for a demo webshop using Selenium.
+- Wrote test scenarios and bug reports for student team projects.
+
+Previous non-tech experience
+Teacher, Secondary School (2014-2024)
+- Curriculum planning, mentoring, and stakeholder communication with parents.
+
+Skills
+- Selenium
+- Test planning
+- Documentation
+- Basic Python
+
+Education
+- MSc Chemistry
+- QA Bootcamp (2025)
+
+Languages
+- Engels
+- Nederlands

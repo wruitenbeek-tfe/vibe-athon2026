@@ -1,0 +1,33 @@
+Name: Ivy Chen
+Location: Utrecht
+Target role: Machine Learning Engineer / AI Researcher
+
+Summary
+Academic researcher transitioning to industry.
+Published work on deep learning optimization and model evaluation.
+Looking for teams where experimentation and reproducibility matter.
+
+Core strengths
+- Python
+- Deep Learning
+- TensorFlow
+- Experiment tracking
+- Statistical analysis
+
+Experience
+PhD Researcher, Applied AI Lab (2020-2026)
+- Designed and trained deep learning models for time-series forecasting.
+- Published 3 peer-reviewed papers.
+- Mentored MSc students and maintained research codebase.
+
+Research Assistant, University Group (2018-2020)
+- Built data preprocessing pipelines and model benchmarks.
+
+Education
+- PhD AI
+- MSc Data Science
+
+Languages
+- Engels
+- Mandarijn
+- Nederlands (basic)

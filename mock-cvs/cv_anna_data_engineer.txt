@@ -1,0 +1,33 @@
+Name: Anna de Vries
+Location: Den Haag
+Target role: Data Engineer (Senior)
+
+Profile
+Data engineer with 7 years of experience building reliable ETL pipelines and analytics platforms.
+Strong in Python and SQL with hands-on AWS and Terraform skills.
+Looking for fulltime English-speaking teams in Den Haag or Amsterdam.
+
+Core skills
+- Python
+- SQL
+- ETL
+- AWS
+- Terraform
+- Docker
+
+Work experience
+Lead Data Engineer, Fintech Co (2022-2026)
+- Rebuilt batch pipelines in Python and ETL framework.
+- Reduced failed jobs by 45% and cut processing time by 30%.
+- Collaborated with analysts on data quality and dashboard requirements.
+
+Data Engineer, Retail Group (2019-2022)
+- Built SQL data marts and ingestion jobs.
+- Improved reporting freshness from daily to hourly updates.
+
+Education
+HBO Informatica
+
+Languages
+- Nederlands
+- Engels

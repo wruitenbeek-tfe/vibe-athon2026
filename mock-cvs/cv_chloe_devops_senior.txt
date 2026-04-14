@@ -1,0 +1,33 @@
+Name: Chloe Smith
+Location: Den Haag
+Target role: DevOps Engineer / Site Reliability Engineer (Senior)
+
+Profile
+Senior DevOps engineer with 9 years in cloud infrastructure and CI/CD automation.
+Specialized in Kubernetes, Docker, monitoring, and incident response.
+Looking for fulltime English-speaking opportunities in Den Haag.
+
+Core skills
+- Docker
+- Kubernetes
+- AWS
+- Terraform
+- Monitoring
+- CI/CD
+
+Work experience
+Senior SRE, HealthTech Platform (2021-2026)
+- Designed Kubernetes platform for 40+ microservices.
+- Built observability stack and reduced MTTR by 38%.
+- Led reliability reviews and production hardening projects.
+
+DevOps Engineer, E-commerce Scale-up (2017-2021)
+- Automated deployments and infrastructure provisioning.
+- Improved release frequency and reduced rollback rate.
+
+Education
+HBO Informatica
+
+Languages
+- Engels
+- Nederlands

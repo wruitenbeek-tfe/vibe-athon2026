@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV Upload</title>
+    <link rel="stylesheet" href="/static/styles.css?v=20260413" />
+  </head>
+  <body>
+    <main class="container">
+      <section class="panel">
+        <div class="page-header">
+          <h1>CV Upload</h1>
+          <a href="/">Back to lane selector</a>
+        </div>
+
+        <p class="page-copy">
+          This starter only captures CV input. Your team still needs to implement extraction,
+          ranking, and result quality.
+        </p>
+
+        <form
+          id="match-form"
+          class="form-grid"
+        >
+          <label for="cv-file">CV file (plain text)</label>
+          <input id="cv-file" type="file" accept=".txt,.md,.text" required />
+
+          <label for="cv-notes">Optional notes</label>
+          <textarea
+            id="cv-notes"
+            placeholder="Example: Looking for senior Python roles in Amsterdam."
+          ></textarea>
+
+          <div class="row">
+            <p id="status" class="status">Ready</p>
+            <button type="submit">Submit CV Intake</button>
+          </div>
+        </form>
+
+        <section class="results">
+          <p id="results-summary">No request yet.</p>
+          <div id="matches" class="matches"></div>
+        </section>
+      </section>
+    </main>
+
+    <script src="/static/cv-upload.js?v=20260414" defer></script>
+  </body>
+</html>

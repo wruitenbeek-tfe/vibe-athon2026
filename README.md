@@ -1,212 +1,126 @@
 # vibe-athon2026
 
-Hackathon starter project for building a chatbot with a FastAPI backend and a simple browser UI.
+2-hour hackathon starter for AI-assisted vacancy matching.
 
-## Stack
+Teams can implement one of two solution lanes:
+1. CV Upload
+2. Chat Intake
 
-- Python 3.11+
-- FastAPI
-- Poetry
-- Pytest
-- Ruff
+## What You Get
 
-## Quick Start
+- FastAPI backend with ready-to-use endpoints
+- Simple frontend: one lane selector page + separate page per lane
+- Enriched vacancy dataset (`app/vacancies.json`)
+- Mock CV set including strong outliers (`mock-cvs/`)
 
-Project Setup Guide
+## Installation
 
-This guide explains how to set up and run the project on a completely new machine (macOS, Linux, or Windows). 
+Prerequisites:
+- Python 3.11+ (installation guide: https://www.python.org/downloads/)
+- Poetry (installation guide: https://python-poetry.org/docs/#installing-with-the-official-installer)
 
-## macOS 🍏 
-
-### 1. Install Homebrew (package manager) 
-
-```bash
- /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
- ```
-
-Add Homebrew to your PATH (if prompted):
+Install dependencies (make sure you're in /vibe-athon2026):
 
 ```bash
- echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile eval "$(/opt/homebrew/bin/brew shellenv)"
- ```
+poetry install
+```
 
-### 2. Install Python 
+## Run Locally
+
 ```bash
- brew install python
- ```
+poetry run uvicorn app.main:app --reload
+```
 
-Verify installation:
+Open:
+- `http://127.0.0.1:8000/` (lane selector)
+- `http://127.0.0.1:8000/docs` (OpenAPI docs)
+
+## UI Pages
+
+- `http://127.0.0.1:8000/static/cv-upload.html`
+- `http://127.0.0.1:8000/static/chat-intake.html`
+
+Both pages submit candidate intake successfully, but vacancy matching is intentionally left as
+starter placeholder logic in `app/services/matcher.py`.
+
+## API Endpoints
+
+- `GET /health`
+- `POST /api/match/cv-upload`
+- `POST /api/match/chat-intake`
+
+## Example Requests
+
 ```bash
- python3 --version
- ``` 
+curl -X POST http://127.0.0.1:8000/api/match/chat-intake \
+  -H "Content-Type: application/json" \
+  -d '{"summary":"I know Python and SQL, prefer English, and want a senior role in Amsterdam."}'
+```
 
-### 3. Install Poetry
-```bash
- curl -sSL https://install.python-poetry.org | python3 -
- ``` 
+The starter response intentionally returns no ranked vacancies until your team implements the
+matching logic.
 
-Add Poetry to PATH:
-```bash
- echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.zshrc 
- source ~/.zshrc
- ``` 
+## Data Model Notes
 
-Verify:
-```bash
- poetry --version
- ``` 
+Vacancies include baseline + richer optional fields:
+- baseline: `jobTitle`, `requiredSkills`, `experienceLevel`, `languagesRequired`, etc.
+- richer: `mustHaveSkills`, `niceToHaveSkills`, `remotePolicy`, `salaryMin/salaryMax`, `industry`, `companyStage`, `visaSponsorship`, `languageLevel`, `postedAt`
 
- ### 4. Install dependencies
-```bash
- cd your-project poetry install
- ``` 
+This is intentional: enough structure for better AI matching, but still messy enough for hackathon realism.
 
- ### 5. Start development server 
-```bash
- poetry run uvicorn app.main:app --reload
- ``` 
+## Mock CVs
 
- ### 6. Open API docs
-```text
- http://127.0.0.1:8000/docs
- ``` 
+Use files in `mock-cvs/` for testing.
+- Includes normal profiles and heavy outliers (OCR noise, sparse CVs, contradictory timeline, keyword spam, injection-style text).
 
- ## Linux 🐧 (Ubuntu/Debian)
-### 1. Update system 
-```bash
- sudo apt update
- ``` 
+## Suggested 2-Hour Approach
 
- ### 2. Install Python and tools 
-```bash
- sudo apt install -y python3 python3-pip python3-venv curl
- ```
-Verify: 
-```bash
- python3 --version
- ``` 
-
- ### 3. Install Poetry 
-```bash
- curl -sSL https://install.python-poetry.org | python3 -
- ```
-
-Add Poetry to PATH: 
-```bash
- echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.bashrc 
- source ~/.bashrc
- ```
-
-Verify: 
-```bash
- poetry --version
- ``` 
-
- ### 4. Install dependencies 
-```bash
- cd your-project 
- poetry install
- ``` 
-
- ### 5. Start development server 
-```bash
- poetry run uvicorn app.main:app --reload
- ``` 
-
- ### 6. Open API docs
-```text
-http://127.0.0.1:8000/docs
- ``` 
-
- ## Windows 🪟 
-### 1. Install Python 
-- Download from: https://www.python.org/downloads/windows/ 
-- Run the installer 
-- ✅ Check **"Add Python to PATH"** 
-
-Verify: 
-```powershell
- python --version
- ``` 
-
-### 2. Install Poetry (PowerShell) 
-```powershell
- (Invoke-WebRequest -Uri https://install.python-poetry.org -UseBasicParsing).Content | python -
-``` 
-
- ### 3. Add Poetry to PATH Temporary (current session): 
-```powershell
- $env:Path += ";$env:USERPROFILE\AppData\Roaming\Python\Scripts"
- ``` 
-
-Permanent: 
-- Open **Environment Variables** 
-- Add:```C:\Users\<your-user>\AppData\Roaming\Python\Scripts```
-- Verify:
-```pwershell 
-poetry --version
-``` 
-
-### 4. Install dependencies 
-```powershell
- cd your-project poetry install
- ``` 
-
- ### 5. Start development server 
-```powershell
- poetry run uvicorn app.main:app --reload
- ``` 
-
- ### 6. Open API docs
-```text
- http://127.0.0.1:8000/docs
- ``` 
-
- ## Notes ⚠️ 
-- Ensure `uvicorn` is included in `pyproject.toml`. 
-- Restart terminal if `poetry` is not recognized. 
-- Port `8000` must be available.
+1. Pick one lane.
+2. Improve extraction/normalization for that lane.
+3. Replace scoring in `app/services/matcher.py` with your AI strategy.
+4. Add one visible improvement in UI or explainability.
 
 ## Project Structure
 
 ```text
 app/
-  api/routes/      HTTP routes
-  core/            Settings and shared config
-  schemas/         Request and response models
-  services/        Chatbot business logic
-tests/             Starter test suite
+  api/routes/      lane endpoints
+  schemas/         request/response models
+  services/        intake normalization + matching
+  static/          lane selector + per-lane pages
+  vacancies.json   enriched vacancy dataset
+mock-cvs/          sample and outlier CVs
+tests/             starter test suite
 ```
 
-## Available Endpoints
+## Config
 
-- `GET /` basic service info
-- `GET /` chat web interface
-- `GET /health` healthcheck
-- `POST /api/chat` chatbot endpoint
-
-Example request:
-
-```bash
-curl -X POST http://127.0.0.1:8000/api/chat \
-  -H "Content-Type: application/json" \
-  -d '{"message":"How do I win this hackathon?"}'
-```
-
-## Configuration
-
-Environment variables can be added to a local `.env` file.
+Optional `.env` (Place in root, and DON'T COMMIT!):
 
 ```env
-APP_NAME="Hackathon Chatbot API"
+APP_NAME="Hackathon Matching API"
 DEBUG=false
 BOT_NAME="VibeBot"
-DEFAULT_SYSTEM_PROMPT="You are a helpful hackathon chatbot. Give concise, practical answers."
 ```
 
-## Where To Extend
+## Quality Check
 
-- Replace `app/services/chatbot.py` with an OpenAI, Anthropic, or local model integration.
-- The starter includes `ChatbotService.build_matching_prompt()` and `self.vacancies` as scaffolding for AI-based vacancy ranking. The repository does not implement matching logic for you.
-- Add conversation memory, auth, rate limiting, or persistence as needed.
-- Expand tests before teams start building features.
+```bash
+poetry run ruff check .
+poetry run pytest -q
+```
+
+## Codex Installation
+
+Via Terminal:
+
+Prequisites:
+- NPM (https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+
+```bash
+npm i -g @openai/codex
+```
+
+Via IDE:
+- `vscode:extension/openai.chatgpt`
+- `https://blog.jetbrains.com/ai/2026/01/codex-in-jetbrains-ides/`

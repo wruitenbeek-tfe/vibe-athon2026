@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat Intake</title>
+    <link rel="stylesheet" href="/static/styles.css?v=20260414" />
+  </head>
+  <body class="chat-intake-page">
+    <main class="chat-app-shell">
+      <aside class="chat-side-rail">
+        <p class="chat-side-kicker">Starter lane</p>
+        <h1>Chat Intake</h1>
+        <p class="chat-side-copy">
+          This should feel like a recruiter assistant having a real conversation, not a plain form.
+        </p>
+
+        <section class="chat-side-card">
+          <h2>Build Goal</h2>
+          <ul class="chat-note-list">
+            <li>Ask follow-up questions based on earlier answers.</li>
+            <li>Track constraints like location, language, and visa.</li>
+            <li>Extract structured preferences from the dialogue.</li>
+            <li>Only rank jobs after enough context is collected.</li>
+          </ul>
+        </section>
+
+        <section class="chat-side-card">
+          <h2>Likely Questions</h2>
+          <ul class="chat-note-list">
+            <li>What role are you looking for?</li>
+            <li>Which cities or remote setups work for you?</li>
+            <li>What seniority and skills matter most?</li>
+            <li>Any hard blockers or must-haves?</li>
+          </ul>
+        </section>
+
+        <a class="chat-back-link" href="/">Back to lane selector</a>
+      </aside>
+
+      <section class="chat-main-stage">
+        <header class="chat-topbar">
+          <div>
+            <p class="chat-topbar-label">Conversation Prototype</p>
+            <p class="chat-topbar-copy">
+              Show teams a multi-turn intake assistant that progressively narrows the vacancy set.
+            </p>
+          </div>
+          <p id="status" class="status chat-status-pill">Ready</p>
+        </header>
+
+        <section class="chat-window" aria-label="Starter chat interface">
+          <div id="chat-thread" class="chat-thread">
+            <article class="chat-bubble chat-bubble-bot">
+              <p class="chat-role">Matcher bot</p>
+              <p>Hi, I can help narrow the right vacancies.</p>
+            </article>
+
+            <article class="chat-bubble chat-bubble-bot">
+              <p class="chat-role">Matcher bot</p>
+              <p>What kind of role are you targeting right now?</p>
+            </article>
+
+            <article class="chat-bubble chat-bubble-bot">
+              <p class="chat-role">Matcher bot</p>
+              <p>After that, I would ask about location, remote preference, language, and seniority.</p>
+            </article>
+          </div>
+
+          <div class="chat-prompt-strip" aria-label="Starter prompt ideas">
+            <button type="button" class="chat-prompt-chip" data-chat-prompt="I want a senior backend role in Amsterdam with hybrid work.">
+              Senior backend in Amsterdam
+            </button>
+            <button type="button" class="chat-prompt-chip" data-chat-prompt="I am looking for a data role, English-speaking team, and visa sponsorship if possible.">
+              Data role with visa support
+            </button>
+            <button type="button" class="chat-prompt-chip" data-chat-prompt="I prefer remote-friendly product roles and want to avoid junior positions.">
+              Remote-friendly product roles
+            </button>
+          </div>
+
+          <form
+            id="match-form"
+            class="chat-composer"
+          >
+            <label for="chat-summary" class="sr-only">Chat message</label>
+            <textarea
+              id="chat-summary"
+              required
+              placeholder="Type the candidate's next message..."
+            ></textarea>
+
+            <div class="chat-composer-row">
+              <p class="chat-composer-hint">
+                Treat this as one turn in a longer conversation.
+              </p>
+              <button type="submit">Send Message</button>
+            </div>
+          </form>
+        </section>
+
+        <aside class="chat-results-panel">
+          <p id="results-summary">No starter turn submitted yet.</p>
+          <div id="matches" class="matches"></div>
+        </aside>
+      </section>
+    </main>
+
+    <script src="/static/chat-intake.js?v=20260414" defer></script>
+  </body>
+</html>

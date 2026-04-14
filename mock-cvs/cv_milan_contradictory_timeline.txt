@@ -1,0 +1,32 @@
+Name: Milan Bakker
+Location: Utrecht
+Target role: Senior Backend Developer
+
+Summary
+Backend engineer with 3 years of experience.
+Also: 12+ years of software architecture leadership.
+
+Experience
+Senior Architect, Enterprise Systems (2014-2026)
+- Led 5 teams, defined Java platform strategy, owned reliability roadmap.
+
+Junior Developer, Startup (2023-2024)
+- Built first production APIs in Node.js.
+
+Intern, Web Agency (2025-2026)
+- Assisted with bug fixes and CSS updates.
+
+Skills
+- Java
+- Spring
+- Node.js
+- MongoDB
+- Leadership
+
+Education
+- MBO ICT (2013)
+- WO Computer Science (2027 expected)
+
+Languages
+- Nederlands
+- Engels

@@ -1,0 +1,35 @@
+Name: Hugo Martinez
+Location: Amsterdam
+Target role: Game Developer / Full Stack Developer
+
+Profile
+Built 20+ weekend projects and game jam prototypes.
+Strong practical builder, less enterprise experience.
+Prefers product teams shipping quickly.
+
+Skills
+- Unity
+- C#
+- JavaScript
+- Node.js
+- Rapid prototyping
+
+Projects
+1) "Orbit Trader" (48h game jam)
+   - Implemented gameplay loop and UI.
+   - Added telemetry and balancing scripts.
+
+2) "StackSprint"
+   - Browser-based puzzle game with Node.js backend.
+   - Deployed leaderboard API and anti-cheat checks.
+
+Work history
+- Freelance Developer (2022-2026)
+- QA Tester (2019-2022)
+
+Education
+- Self-taught + online courses
+
+Languages
+- Engels
+- Spaans

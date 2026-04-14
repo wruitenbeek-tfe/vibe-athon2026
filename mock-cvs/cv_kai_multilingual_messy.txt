@@ -1,0 +1,28 @@
+NAME = Kai Rahman
+BASE: Den Haag / sometimes Rotterdam
+ROLE? data engineer OR backend dev
+
+about-me:
+7y exp.
+python, ETL, aws, terraform, node.js (older), sql.
+worked in eng + nl teams.
+
+EXPERIENCE
+2023-2026  "Platform Data Squad"
+  built pipelines; fixed flaky jobs; added alerts.
+  impact: data delay from 6h -> 45m
+
+2020-2023  backend + integration
+  node.js APIs, mongoDB, some java interop.
+
+2018-2020  junior analyst
+  dashboards + ad hoc SQL
+
+LANGUAGES
+- english fluent
+- nederlands goed
+- bangla conversational
+
+random:
+prefer hybrid
+not interested in pure management track

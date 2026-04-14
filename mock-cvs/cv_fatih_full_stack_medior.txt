@@ -1,0 +1,33 @@
+Name: Fatih Demir
+Location: Amsterdam
+Target role: Full Stack Developer (Medior)
+
+Profile
+Full stack developer with 5 years of experience across frontend and backend systems.
+Strong in JavaScript, Node.js, and API design with practical cloud deployment skills.
+Open to fulltime roles in Amsterdam, English-speaking team preferred.
+
+Core skills
+- JavaScript
+- Node.js
+- React
+- MongoDB
+- REST APIs
+- Docker
+
+Work experience
+Full Stack Developer, Logistics Tech (2023-2026)
+- Built end-to-end features in React and Node.js.
+- Improved API performance and reduced latency by 25%.
+- Worked with product and design teams on user-facing workflows.
+
+Backend Developer, Startup Studio (2021-2023)
+- Developed Node.js services and MongoDB data models.
+- Implemented integration tests and deployment pipelines.
+
+Education
+HBO Informatica
+
+Languages
+- Engels
+- Nederlands

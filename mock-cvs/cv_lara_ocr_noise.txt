@@ -1,0 +1,31 @@
+N4ME: L4RA V0SS
+L0CAT10N: AMSTERD4M
+T4RG3T R0LE: D4T4 ENGIN33R
+
+PR0F1LE
+8 y3ars exp in data platf0rms.
+pyth0n/sql/etl/aws.
+prefers english t3ams.
+
+EXP3R13NCE
+2022-2026  D4T4 PL4TF0RM ENG
+- bu1lt etl pipel1nes
+- m0nit0r1ng + al3rts
+- cut d3lay fr0m 5h t0 50m
+
+2018-2022  ANALYST -> DATA ENGINEER
+- sq1 querying, rep0rting, schedulers
+
+SK1LLS
+python
+sql
+etl
+aws
+terraform
+
+EDUC4T10N
+hbo informatica
+
+L4NGU4G3S
+english
+nederlands

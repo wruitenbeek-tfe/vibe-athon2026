@@ -3,64 +3,30 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{bot_name} Chat</title>
-    <link rel="stylesheet" href="/static/styles.css" />
+    <title>{bot_name} Starter</title>
+    <link rel="stylesheet" href="/static/styles.css?v=20260413" />
   </head>
   <body>
-    <main class="shell">
-      <section class="hero">
+    <main class="container">
+      <section class="panel">
         <p class="eyebrow">Hackathon Starter</p>
-        <h1>Build your chatbot here.</h1>
-        <p class="intro">
-          This UI talks to the FastAPI backend at <code>/api/chat</code> and shows
-          recommended vacancies. Teams can improve the ranking logic or replace it with an
-          LLM-based retrieval flow.
+        <h1>{bot_name}: Choose a solution lane</h1>
+        <p class="lead">
+          Pick one starter lane below. The intake flow is wired up, but your team still needs
+          to build the extraction and matching logic.
         </p>
-      </section>
-
-      <section class="chat-panel" aria-label="Chatbot interface">
-        <div class="chat-header">
-          <div>
-            <h2>{bot_name}</h2>
-            <p>FastAPI + Poetry starter</p>
-          </div>
-          <a href="/docs" target="_blank" rel="noreferrer">API Docs</a>
+        <div class="lane-grid">
+          <a class="lane-link" href="/static/cv-upload.html">
+            <h2>CV Upload</h2>
+            <p>Collect resume text, normalize it, and implement your own vacancy matcher.</p>
+          </a>
+          <a class="lane-link" href="/static/chat-intake.html">
+            <h2>Chat Intake</h2>
+            <p>Prototype a multi-turn chat that asks follow-up questions before ranking jobs.</p>
+          </a>
         </div>
-
-        <div id="messages" class="messages" aria-live="polite">
-          <article class="message bot">
-            <p>
-              {bot_name}: The chat UI is running. Send a message to test the backend,
-              and I will suggest vacancies that match your profile.
-            </p>
-          </article>
-        </div>
-
-        <section class="results-panel" aria-label="Vacancy matches">
-          <div class="results-header">
-            <h3>Recommended Vacancies</h3>
-            <p id="results-summary">Ask about skills, location, experience, or language.</p>
-          </div>
-          <div id="matches" class="matches"></div>
-        </section>
-
-        <form id="chat-form" class="composer">
-          <label class="sr-only" for="message">Message</label>
-          <textarea
-            id="message"
-            name="message"
-            rows="3"
-            placeholder="Example: I know Python, want a senior role in Amsterdam, and prefer English."
-            required
-          ></textarea>
-          <div class="composer-actions">
-            <p id="status" class="status">Ready</p>
-            <button type="submit">Send</button>
-          </div>
-        </form>
+        <p class="footer-link"><a href="/docs">Open API docs</a></p>
       </section>
     </main>
-
-    <script src="/static/chat.js" defer></script>
   </body>
 </html>

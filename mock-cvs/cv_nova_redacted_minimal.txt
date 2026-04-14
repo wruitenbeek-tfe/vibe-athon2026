@@ -1,0 +1,28 @@
+Name: [REDACTED]
+Location: [REDACTED], NL
+Target role: Security Specialist
+
+Profile
+Worked in secure environments where project details cannot be shared.
+Hands-on with cybersecurity controls and incident response.
+
+Experience
+2021-2026 Security Engineer, [REDACTED]
+- Built detection rules.
+- Supported penetration testing follow-up.
+- Coordinated incident handling.
+
+2018-2021 IT Support, [REDACTED]
+- Managed endpoint security updates.
+
+Skills
+- Cybersecurity
+- Penetration testing
+- Incident response
+- Linux
+
+Education
+- HBO Informatica
+
+Languages
+- Engels

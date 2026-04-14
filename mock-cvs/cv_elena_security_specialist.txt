@@ -1,0 +1,32 @@
+Name: Elena Petrov
+Location: Utrecht
+Target role: Security Specialist (Senior)
+
+Profile
+Security specialist with 10 years in application and infrastructure security.
+Experienced in cybersecurity assessments, penetration testing, and secure SDLC.
+Looking for fulltime English-speaking teams in Utrecht or remote.
+
+Core skills
+- Cybersecurity
+- Penetration testing
+- Threat modeling
+- Incident response
+- Security automation
+
+Work experience
+Lead Security Specialist, Enterprise Software (2020-2026)
+- Ran penetration testing programs across web and API products.
+- Implemented secure coding controls and reduced critical findings by 50%.
+- Built incident response playbooks and tabletop exercises.
+
+Security Engineer, Digital Agency (2016-2020)
+- Performed security reviews for client applications.
+- Supported SOC investigations and vulnerability remediation.
+
+Education
+HBO Informatica
+
+Languages
+- Engels
+- Nederlands

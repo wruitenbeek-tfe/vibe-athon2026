@@ -1,0 +1,22 @@
+Jules
+eindhoven
+wants: system admin maybe devops maybe support
+
+did stuff:
+- linux
+- netwerken
+- windows
+- docker (a bit)
+
+2018-2021 helpdesk
+2021-now sysadmin-ish at local company (small team)
+
+projects:
+setup monitoring
+moved backups to new server
+
+school: mbo ict
+lang: nederlands, engels
+
+looking for fulltime
+prefer practical team no endless meetings

@@ -4,13 +4,12 @@ from fastapi import FastAPI
 from fastapi.responses import HTMLResponse
 from fastapi.staticfiles import StaticFiles
 
-from app.api.routes.chat import router as chat_router
+from app.api.routes.matching import router as matching_router
 from app.core.config import get_settings
 
 settings = get_settings()
 app = FastAPI(title=settings.app_name, debug=settings.debug)
 static_dir = Path(__file__).parent / "static"
-index_html = (static_dir / "index.html").read_text(encoding="utf-8")
 
 app.mount("/static", StaticFiles(directory=static_dir), name="static")
 
@@ -23,7 +22,7 @@ async def healthcheck() -> dict[str, str]:
 @app.get("/", tags=["system"])
 async def root() -> HTMLResponse:
     html = (static_dir / "index.html").read_text(encoding="utf-8")
-    rendered_html = html.format(bot_name=settings.bot_name)
+    rendered_html = html.replace("{bot_name}", settings.bot_name)
     return HTMLResponse(rendered_html)
 
-app.include_router(chat_router, prefix="/api")
+app.include_router(matching_router, prefix="/api")

@@ -1,0 +1,32 @@
+Name: Bram Jansen
+Location: Utrecht
+Target role: Frontend Developer (Junior)
+
+Profile
+Junior frontend developer focused on JavaScript and React.
+Enjoys shipping clean UI components and improving user experience.
+Open to fulltime roles in Utrecht, Dutch-speaking teams preferred.
+
+Core skills
+- JavaScript
+- React
+- HTML
+- CSS
+- Figma
+
+Work experience
+Frontend Intern, SaaS Startup (2025-2026)
+- Implemented React components for dashboard pages.
+- Worked with designers in Figma and improved mobile responsiveness.
+- Fixed UI bugs and improved accessibility for forms.
+
+Freelance Web Projects (2024-2025)
+- Built small websites for local businesses.
+- Maintained reusable component library for landing pages.
+
+Education
+HBO Informatica (ongoing)
+
+Languages
+- Nederlands
+- Engels
